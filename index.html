@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .article{
+            font-family: 'segoe UI';
+        }
+
+        .article-sport {
+            background-color: aqua;
+        }
+
+        .article-news {
+            background-color: yellowgreen;
+        }
+
+        h1{
+            font-size: large;
+        }
+
+        #p-footer{
+            color: aliceblue;
+            background-color: black;
+        }
+    </style>
+</head>
+<body>      <!-- para comentar se usa control + k y control + c y comenta toda la linea -->
+    <!-- (header>h1+img)+(main>section>article.article*4>h3+p)+(footer>p#p-footer) para ejecutar: control + espacio y tab -->
+     <header>
+        <h1>Noticias 4V</h1>
+        <img src="https://placehold.co/600x400" alt="">  <!-- la src la encuentro en: placeholder image -->
+     </header>
+   <main>                         <!--  si presiono el alt + clic en distintas lineas se escribe lo mismo en ambas  -->
+        <section>
+            <article class="article article-sport">
+                <h3>Futbol osasuna vs Real Madrid</h3>
+                <p>Resumen del partido jugado en pamplona</p>
+            </article>
+            <article class="article article-sport">
+                <h3>Balonmano: Anaitasuna campeón</h3>
+                <p>Resumen de los exitos de la Anaitasuna</p>
+            </article>
+            <article class="article article-news">
+                <h3>Problema de la vivienda</h3>
+                <p>Concentraciones para reclamar derecho a techo</p>
+            </article>
+            <article class="article">
+                <h3>Cuatrovientos</h3>
+                <p>Centro de exceliencia vocacional</p>
+            </article>
+        </section>
+     </main>
+     <footer>
+        <p id="p-footer"></p>
+     </footer>
+</body>
+</html>
